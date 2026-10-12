@@ -150,4 +150,6 @@ if __name__ == "__main__":
     except Exception as error:
         print(f"Kontrol hatası: {error}", file=sys.stderr)
         sys.exit(1)
-      
+      Telegram bağlantı testi
+
+send_message("✅ Philips filtre takip botu: Telegram bağlantısı çalışıyor!")
